@@ -21,7 +21,7 @@
 
 set -eu
 
-# Require GNU tar
+# Requires GNU tar
 # Cat avoid check that the output goes to a terminal.
 tar -cpv -f - \
 	--exclude=/dev \
